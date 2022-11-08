@@ -39,5 +39,14 @@ int main()
         cout << "Incorrect element, it is not present in the array";
     }
 
+    /*Another approach for this could be traversing the array from the end
+
+    //for(int = v.size()-1; i=0; i--){
+        if(v[i]==m){
+            lastOccurence = i;
+            break;
+        }
+    }*/
+
     return 0;
 }
